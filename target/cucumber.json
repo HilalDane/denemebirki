@@ -1,0 +1,82 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-28T13:07:42.724Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3346000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "tests.consulting.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Sevda Cicegi",
+        "description": "",
+        "id": "user-should-be-able-to-listen-the-music;sevda-cicegi",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5585000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user on the Youtube main page",
+            "match": {
+              "location": "tests.consulting.stepdefinitions.YoutubeStepDefs.the_user_on_the_Youtube_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9733000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user clicks \"Sevda Cicegi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sevda Cicegi\"",
+                  "offset": 16
+                }
+              ],
+              "location": "tests.consulting.stepdefinitions.YoutubeStepDefs.the_user_clicks(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4333000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user should be able to listen this music",
+            "match": {
+              "location": "tests.consulting.stepdefinitions.YoutubeStepDefs.the_user_should_be_able_to_listen_this_music()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@youtube"
+          }
+        ]
+      }
+    ],
+    "name": "User should be able to listen the music",
+    "description": "",
+    "id": "user-should-be-able-to-listen-the-music",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/youtube.feature",
+    "tags": []
+  }
+]
