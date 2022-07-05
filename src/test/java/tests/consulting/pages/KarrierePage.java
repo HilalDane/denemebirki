@@ -15,6 +15,19 @@ public class KarrierePage extends BasePage {
     @FindBy(xpath = "//tr/td/b/a")
     public WebElement titel;
 
+    @FindBy(xpath = "(//tr/td/b/a)[1]")
+    public WebElement tae;
+    @FindBy(xpath = "(//tr/td/b/a)[1]")
+    public WebElement tm;
+    @FindBy(xpath = "(//tr/td/b/a)[1]")
+    public WebElement atadsc;
+    @FindBy(xpath = "(//tr/td/b/a)[1]")
+    public WebElement markhr;
+    @FindBy(xpath = "(//tr/td/b/a)[1]")
+    public WebElement werkstudent;
+    @FindBy(xpath = "(//tr/td/b/a)[1]")
+    public WebElement testeng;
+
     @FindBy(xpath = "(//div/form/p/span[1]/input)[1]")
     public WebElement vornachname;
 

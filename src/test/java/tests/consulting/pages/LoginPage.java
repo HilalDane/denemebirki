@@ -46,7 +46,7 @@ public class LoginPage extends BasePage{
     @FindBy(name = "avia_5_1")
     public WebElement nachricht;
 
-    @FindBy(className = "button")
+    @FindBy(xpath = "//input[@class='button']")
     public WebElement senden;
 
     @FindBy(xpath = "//h3[text()='Vielen Dank für Ihre Nachricht. Wir melden uns bei Ihnen']")

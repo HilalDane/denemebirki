@@ -16,10 +16,10 @@ public class KontaktPage extends BasePage {
     public WebElement name;
 
     @FindBy(name = "avia_2_1")
-    public WebElement email;
+    public WebElement nachname;
 
     @FindBy(name = "avia_3_1")
-    public WebElement rufNummer;
+    public WebElement email;
 
     @FindBy(name = "avia_4_1")
     public WebElement handy;
@@ -33,5 +33,20 @@ public class KontaktPage extends BasePage {
 
     @FindBy(className = "button")
     public WebElement senden;
+
+   // @FindBy(xpath = "(//span[@class='avia_iconbox_title'])[1]")
+   // public WebElement jetztanfragen;
+    @FindBy(xpath = "(//li/div/a/span)[1]")
+    public WebElement jetztanfragen;
+
+
+    @FindBy(xpath = "(//span[@class='avia_iconbox_title'])[2]")
+    public WebElement kontakt;
+
+    @FindBy(xpath = "(//span[@class='avia_iconbox_title'])[3]")
+    public WebElement fragen;
+
+    @FindBy(xpath = "(//div/div/h3)[1]")
+    public WebElement nachrichtfürdank;
 
 }
