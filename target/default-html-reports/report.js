@@ -1,16 +1,16 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/youtube.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/email.feature");
 formatter.feature({
-  "name": "User should be able to listen the music",
+  "name": "Login Page",
   "description": "",
   "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "Sevda Cicegi",
+  "name": "User should be able to send Email",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@youtube"
+      "name": "@start"
     }
   ]
 });
@@ -18,31 +18,41 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "the user on the Youtube main page",
+  "name": "the user on the login page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "tests.consulting.stepdefinitions.YoutubeStepDefs.the_user_on_the_Youtube_main_page()"
+  "location": "tests.consulting.stepdefinitions.LoginStepDef.the_user_on_the_login_page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "the user clicks \"Sevda Cicegi\"",
+  "name": "the user fill the empty field",
   "keyword": "When "
 });
 formatter.match({
-  "location": "tests.consulting.stepdefinitions.YoutubeStepDefs.the_user_clicks(java.lang.String)"
+  "location": "tests.consulting.stepdefinitions.EmailStepDef.the_user_fill_the_empty_field()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "the user should be able to listen this music",
+  "name": "the user click the Senden button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "tests.consulting.stepdefinitions.EmailStepDef.the_user_click_the_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the user should be able to send Email",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "tests.consulting.stepdefinitions.YoutubeStepDefs.the_user_should_be_able_to_listen_this_music()"
+  "location": "tests.consulting.stepdefinitions.EmailStepDef.the_user_should_be_able_to_send_Email()"
 });
 formatter.result({
   "status": "passed"

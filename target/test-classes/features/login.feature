@@ -1,4 +1,4 @@
-@login
+
 Feature: User should be able to log in
 
   Background:
@@ -15,3 +15,5 @@ Feature: User should be able to log in
       Then the user should be able to see KONTAKTIEREN SIE UNS
         And the user drags the page down
         Then the user should be able to see kontaktperson is Imad
+
+
