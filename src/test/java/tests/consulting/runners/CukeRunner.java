@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "tests/consulting/stepdefinitions",
         dryRun = false,
-        tags = ""
+        tags = "@karriere"
 
 )
 

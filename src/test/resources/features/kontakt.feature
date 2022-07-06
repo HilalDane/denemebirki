@@ -1,3 +1,4 @@
+@3
 Feature: Contact with Kontakt Page
   @4
   Scenario: User should be able to send a Message

@@ -62,6 +62,11 @@ public  abstract class BasePage {
         js.executeScript("scrollBy(0,1500)");
     }
 
+    public void scrollDown3(){
+        JavascriptExecutor js = (JavascriptExecutor) Driver.get();
+        js.executeScript("scrollBy(0,750)");
+    }
+
 
 
 

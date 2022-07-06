@@ -1,165 +1,84 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/anfragen.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/karriere.feature");
 formatter.feature({
-  "name": "user should kontakt with Imad",
-  "description": "",
-  "keyword": "Feature",
-  "tags": [
-    {
-      "name": "@3"
-    }
-  ]
-});
-formatter.scenario({
-  "name": "User should be able to contact with Imad with Jetzt Afragen",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@3"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "the user on the login page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "tests.consulting.stepdefinitions.EmailStepDef.the_user_on_the_login_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "the user clicks Jetzt Anfragen button",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "tests.consulting.stepdefinitions.KontaktStepDef.theUserClicksJetztAnfragenButton()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "the user should be on the kontakt page",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "tests.consulting.stepdefinitions.KontaktStepDef.the_user_should_be_on_the_kontakt_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "User should be able to contact with Imad with Kontakt",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@3"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "the user on the login page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "tests.consulting.stepdefinitions.EmailStepDef.the_user_on_the_login_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "the user clicks Kontaktt button",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "tests.consulting.stepdefinitions.KontaktStepDef.the_user_clicks_Kontaktt_button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "the user should be on the kontakt page",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "tests.consulting.stepdefinitions.KontaktStepDef.the_user_should_be_on_the_kontakt_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "User should be able to contact with Imad with Fragen",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@3"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "the user on the login page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "tests.consulting.stepdefinitions.EmailStepDef.the_user_on_the_login_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "the user clicks Fragen button",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "tests.consulting.stepdefinitions.KontaktStepDef.the_user_clicks_Fragen_button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "the user should be on the kontakt page",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "tests.consulting.stepdefinitions.KontaktStepDef.the_user_should_be_on_the_kontakt_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.uri("file:src/test/resources/features/email.feature");
-formatter.feature({
-  "name": "Login Page",
+  "name": "Karriere Page",
   "description": "",
   "keyword": "Feature"
 });
-formatter.scenario({
-  "name": "User should be able to send Email",
+formatter.scenarioOutline({
+  "name": "User clicks each titel",
   "description": "",
-  "keyword": "Scenario",
+  "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@start"
+      "name": "@karriere"
+    }
+  ]
+});
+formatter.step({
+  "name": "the user on the login page",
+  "keyword": "Given "
+});
+formatter.step({
+  "name": "the user cliks Karriere button",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "the user clicks each \"\u003ctitel\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "the titel should be same with each \"\u003ctitel\u003e\"",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "titel"
+      ]
+    },
+    {
+      "cells": [
+        "Test Automation Engineer (m/w/d)"
+      ]
+    },
+    {
+      "cells": [
+        "Test Manager/in (m/w/d)"
+      ]
+    },
+    {
+      "cells": [
+        "Atlassian Administrator Schwerpunkt Jira und Confluence (m/w/d)"
+      ]
+    },
+    {
+      "cells": [
+        "(Junior) Marketing \u0026 HR Specialist (m/w/d)"
+      ]
+    },
+    {
+      "cells": [
+        "Werkstudent/in (m/w/d)"
+      ]
+    },
+    {
+      "cells": [
+        "Test Engineer(m/w/d)"
+      ]
+    }
+  ]
+});
+formatter.scenario({
+  "name": "User clicks each titel",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@karriere"
     }
   ]
 });
@@ -177,31 +96,31 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "the user fill the empty field",
+  "name": "the user cliks Karriere button",
   "keyword": "When "
 });
 formatter.match({
-  "location": "tests.consulting.stepdefinitions.EmailStepDef.the_user_fill_the_empty_field()"
+  "location": "tests.consulting.stepdefinitions.KarriereStepDef.the_user_cliks_Karriere_button()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "the user click the Senden button",
+  "name": "the user clicks each \"Test Automation Engineer (m/w/d)\"",
   "keyword": "And "
 });
 formatter.match({
-  "location": "tests.consulting.stepdefinitions.EmailStepDef.the_user_click_the_button()"
+  "location": "tests.consulting.stepdefinitions.KarriereStepDef.the_user_clicks_each(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "the user should be able to send Email",
+  "name": "the titel should be same with each \"Test Automation Engineer (m/w/d)\"",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "tests.consulting.stepdefinitions.EmailStepDef.the_user_should_be_able_to_send_Email()"
+  "location": "tests.consulting.stepdefinitions.KarriereStepDef.the_titel_should_be_same_with_each(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -209,19 +128,13 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
-formatter.uri("file:src/test/resources/features/kontakt.feature");
-formatter.feature({
-  "name": "Contact with Kontakt Page",
-  "description": "",
-  "keyword": "Feature"
-});
 formatter.scenario({
-  "name": "User should be able to send a Message",
+  "name": "User clicks each titel",
   "description": "",
-  "keyword": "Scenario",
+  "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@4"
+      "name": "@karriere"
     }
   ]
 });
@@ -239,36 +152,29 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "the user clicks Kontakt button",
+  "name": "the user cliks Karriere button",
   "keyword": "When "
 });
 formatter.match({
-  "location": "tests.consulting.stepdefinitions.KontaktStepDef.the_user_clicks_Kontakt_button()"
+  "location": "tests.consulting.stepdefinitions.KarriereStepDef.the_user_cliks_Karriere_button()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "the user fill the empty fields",
+  "name": "the user clicks each \"Test Manager/in (m/w/d)\"",
   "keyword": "And "
 });
 formatter.match({
-  "location": "tests.consulting.stepdefinitions.KontaktStepDef.the_user_fill_the_empty_fields()"
+  "location": "tests.consulting.stepdefinitions.KarriereStepDef.the_user_clicks_each(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "the user should be able to send Emaill",
+  "name": "the titel should be same with each \"Test Manager/in (m/w/d)\"",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "tests.consulting.stepdefinitions.KontaktStepDef.the_user_should_be_able_to_send_Emaill()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
+  "location": "tests.consulting.stepdefinitions.KarriereStepDef.the_titel_should_be_same_with_each(java.lang.String)"
 });
