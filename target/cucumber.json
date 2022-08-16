@@ -1,0 +1,601 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-07T11:04:56.432Z",
+        "before": [
+          {
+            "result": {
+              "duration": 14277000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "tests.consulting.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "User clicks each titel",
+        "description": "",
+        "id": "karriere-page;user-clicks-each-titel;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 388000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "tests.consulting.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8389000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user on the login page",
+            "match": {
+              "location": "tests.consulting.stepdefinitions.EmailStepDef.the_user_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6661000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user cliks Karriere button",
+            "match": {
+              "location": "tests.consulting.stepdefinitions.KarriereStepDef.the_user_cliks_Karriere_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7735000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user clicks each \"Test Automation Engineer (m/w/d)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test Automation Engineer (m/w/d)\"",
+                  "offset": 21
+                }
+              ],
+              "location": "tests.consulting.stepdefinitions.KarriereStepDef.the_user_clicks_each(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2008000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the titel should be same with each \"Test Automation Engineer (m/w/d)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test Automation Engineer (m/w/d)\"",
+                  "offset": 35
+                }
+              ],
+              "location": "tests.consulting.stepdefinitions.KarriereStepDef.the_titel_should_be_same_with_each(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@karriere"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-07T11:05:37.053Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6546000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "tests.consulting.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User clicks each titel",
+        "description": "",
+        "id": "karriere-page;user-clicks-each-titel;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 381000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "tests.consulting.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7279000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user on the login page",
+            "match": {
+              "location": "tests.consulting.stepdefinitions.EmailStepDef.the_user_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6331000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user cliks Karriere button",
+            "match": {
+              "location": "tests.consulting.stepdefinitions.KarriereStepDef.the_user_cliks_Karriere_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6634000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user clicks each \"Test Manager/in (m/w/d)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test Manager/in (m/w/d)\"",
+                  "offset": 21
+                }
+              ],
+              "location": "tests.consulting.stepdefinitions.KarriereStepDef.the_user_clicks_each(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2005000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the titel should be same with each \"Test Manager/in (m/w/d)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test Manager/in (m/w/d)\"",
+                  "offset": 35
+                }
+              ],
+              "location": "tests.consulting.stepdefinitions.KarriereStepDef.the_titel_should_be_same_with_each(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@karriere"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-07T11:06:06.242Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5159000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "tests.consulting.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "User clicks each titel",
+        "description": "",
+        "id": "karriere-page;user-clicks-each-titel;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 362000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "tests.consulting.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11152000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user on the login page",
+            "match": {
+              "location": "tests.consulting.stepdefinitions.EmailStepDef.the_user_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6268000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user cliks Karriere button",
+            "match": {
+              "location": "tests.consulting.stepdefinitions.KarriereStepDef.the_user_cliks_Karriere_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6527000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user clicks each \"Atlassian Administrator Schwerpunkt Jira und Confluence (m/w/d)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Atlassian Administrator Schwerpunkt Jira und Confluence (m/w/d)\"",
+                  "offset": 21
+                }
+              ],
+              "location": "tests.consulting.stepdefinitions.KarriereStepDef.the_user_clicks_each(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2012000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the titel should be same with each \"Atlassian Administrator Schwerpunkt Jira und Confluence (m/w/d)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Atlassian Administrator Schwerpunkt Jira und Confluence (m/w/d)\"",
+                  "offset": 35
+                }
+              ],
+              "location": "tests.consulting.stepdefinitions.KarriereStepDef.the_titel_should_be_same_with_each(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@karriere"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-07T11:06:37.747Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4881000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "tests.consulting.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "User clicks each titel",
+        "description": "",
+        "id": "karriere-page;user-clicks-each-titel;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 368000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "tests.consulting.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7072000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user on the login page",
+            "match": {
+              "location": "tests.consulting.stepdefinitions.EmailStepDef.the_user_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6435000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user cliks Karriere button",
+            "match": {
+              "location": "tests.consulting.stepdefinitions.KarriereStepDef.the_user_cliks_Karriere_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6333000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user clicks each \"(Junior) Marketing \u0026 HR Specialist (m/w/d)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"(Junior) Marketing \u0026 HR Specialist (m/w/d)\"",
+                  "offset": 21
+                }
+              ],
+              "location": "tests.consulting.stepdefinitions.KarriereStepDef.the_user_clicks_each(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2005000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the titel should be same with each \"(Junior) Marketing \u0026 HR Specialist (m/w/d)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"(Junior) Marketing \u0026 HR Specialist (m/w/d)\"",
+                  "offset": 35
+                }
+              ],
+              "location": "tests.consulting.stepdefinitions.KarriereStepDef.the_titel_should_be_same_with_each(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@karriere"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-07T11:07:04.858Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5589000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "tests.consulting.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "User clicks each titel",
+        "description": "",
+        "id": "karriere-page;user-clicks-each-titel;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 473000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "tests.consulting.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5342000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user on the login page",
+            "match": {
+              "location": "tests.consulting.stepdefinitions.EmailStepDef.the_user_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6544000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user cliks Karriere button",
+            "match": {
+              "location": "tests.consulting.stepdefinitions.KarriereStepDef.the_user_cliks_Karriere_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6678000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user clicks each \"Werkstudent/in (m/w/d)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Werkstudent/in (m/w/d)\"",
+                  "offset": 21
+                }
+              ],
+              "location": "tests.consulting.stepdefinitions.KarriereStepDef.the_user_clicks_each(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2004000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the titel should be same with each \"Werkstudent/in (m/w/d)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Werkstudent/in (m/w/d)\"",
+                  "offset": 35
+                }
+              ],
+              "location": "tests.consulting.stepdefinitions.KarriereStepDef.the_titel_should_be_same_with_each(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@karriere"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-07T11:07:31.512Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4845000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "tests.consulting.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "User clicks each titel",
+        "description": "",
+        "id": "karriere-page;user-clicks-each-titel;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 562000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "tests.consulting.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6502000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user on the login page",
+            "match": {
+              "location": "tests.consulting.stepdefinitions.EmailStepDef.the_user_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6468000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user cliks Karriere button",
+            "match": {
+              "location": "tests.consulting.stepdefinitions.KarriereStepDef.the_user_cliks_Karriere_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6571000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user clicks each \"Test Engineer(m/w/d)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test Engineer(m/w/d)\"",
+                  "offset": 21
+                }
+              ],
+              "location": "tests.consulting.stepdefinitions.KarriereStepDef.the_user_clicks_each(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2009000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the titel should be same with each \"Test Engineer(m/w/d)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test Engineer(m/w/d)\"",
+                  "offset": 35
+                }
+              ],
+              "location": "tests.consulting.stepdefinitions.KarriereStepDef.the_titel_should_be_same_with_each(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@karriere"
+          }
+        ]
+      }
+    ],
+    "name": "Karriere Page",
+    "description": "",
+    "id": "karriere-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/karriere.feature",
+    "tags": []
+  }
+]

@@ -3,6 +3,7 @@ package tests.consulting.stepdefinitions;
 
 
 //import tests.consulting.utilities.DBUtils;
+import tests.consulting.utilities.BrowserUtils;
 import tests.consulting.utilities.Driver;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -28,7 +29,10 @@ public class Hooks {
             scenario.attach(screenshot,"image/png","screenshot");
         }
 
+
         Driver.closeDriver();
+
+
 
     }
 

@@ -10,8 +10,8 @@ Scenario Outline:User clicks each titel
   Examples:
   |titel|
   |Test Automation Engineer (m/w/d)|
-  |Test Manager/in (m/w/d)         |
+  |Test Manager/in (m/w/d)|
   |Atlassian Administrator Schwerpunkt Jira und Confluence (m/w/d)|
-  |(Junior) Marketing & HR Specialist (m/w/d)	                    |
-  |Werkstudent/in (m/w/d)                                         |
-  |Test Engineer(m/w/d)                                           |
+  |(Junior) Marketing & HR Specialist (m/w/d)|
+  |Werkstudent/in (m/w/d) |
+  |Test Engineer(m/w/d) |

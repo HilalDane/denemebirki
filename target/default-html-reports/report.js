@@ -178,3 +178,234 @@ formatter.step({
 formatter.match({
   "location": "tests.consulting.stepdefinitions.KarriereStepDef.the_titel_should_be_same_with_each(java.lang.String)"
 });
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "User clicks each titel",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@karriere"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the user on the login page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "tests.consulting.stepdefinitions.EmailStepDef.the_user_on_the_login_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the user cliks Karriere button",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "tests.consulting.stepdefinitions.KarriereStepDef.the_user_cliks_Karriere_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the user clicks each \"Atlassian Administrator Schwerpunkt Jira und Confluence (m/w/d)\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "tests.consulting.stepdefinitions.KarriereStepDef.the_user_clicks_each(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the titel should be same with each \"Atlassian Administrator Schwerpunkt Jira und Confluence (m/w/d)\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "tests.consulting.stepdefinitions.KarriereStepDef.the_titel_should_be_same_with_each(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "User clicks each titel",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@karriere"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the user on the login page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "tests.consulting.stepdefinitions.EmailStepDef.the_user_on_the_login_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the user cliks Karriere button",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "tests.consulting.stepdefinitions.KarriereStepDef.the_user_cliks_Karriere_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the user clicks each \"(Junior) Marketing \u0026 HR Specialist (m/w/d)\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "tests.consulting.stepdefinitions.KarriereStepDef.the_user_clicks_each(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the titel should be same with each \"(Junior) Marketing \u0026 HR Specialist (m/w/d)\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "tests.consulting.stepdefinitions.KarriereStepDef.the_titel_should_be_same_with_each(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "User clicks each titel",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@karriere"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the user on the login page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "tests.consulting.stepdefinitions.EmailStepDef.the_user_on_the_login_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the user cliks Karriere button",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "tests.consulting.stepdefinitions.KarriereStepDef.the_user_cliks_Karriere_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the user clicks each \"Werkstudent/in (m/w/d)\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "tests.consulting.stepdefinitions.KarriereStepDef.the_user_clicks_each(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the titel should be same with each \"Werkstudent/in (m/w/d)\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "tests.consulting.stepdefinitions.KarriereStepDef.the_titel_should_be_same_with_each(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "User clicks each titel",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@karriere"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the user on the login page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "tests.consulting.stepdefinitions.EmailStepDef.the_user_on_the_login_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the user cliks Karriere button",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "tests.consulting.stepdefinitions.KarriereStepDef.the_user_cliks_Karriere_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the user clicks each \"Test Engineer(m/w/d)\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "tests.consulting.stepdefinitions.KarriereStepDef.the_user_clicks_each(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the titel should be same with each \"Test Engineer(m/w/d)\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "tests.consulting.stepdefinitions.KarriereStepDef.the_titel_should_be_same_with_each(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+});
